@@ -58,13 +58,8 @@
     <Compile Include="Program.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
-    <None Include="V1.model.sql" />
+    <None Include="V1.base.sql" />
     <None Include="rzsql.json" />
-    <None Include="V2.model.sql" />
-    <None Include="V2.model-widencolumn.sql" />
-    <None Include="V3.model.sql" />
-    <None Include="V4.model.sql" />
-    <None Include="V3.model-sub.sql" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FParsec">
