@@ -54,12 +54,18 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="Program.fs" />
     <None Include="App.config" />
-    <Content Include="packages.config" />
-    <None Include="V1.base.sql" />
     <None Include="rzsql.json" />
+    <Content Include="packages.config" />
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="PlanExecution.fs" />
+    <Compile Include="Migration.fs" />
+    <Compile Include="Population.fs" />
+    <Compile Include="Querying.fs" />
+    <None Include="v1.employer.sql" />
+    <None Include="v2.person.sql" />
+    <None Include="v2.person-pet.sql" />
+    <Compile Include="Program.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FParsec">
